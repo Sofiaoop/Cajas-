@@ -1,54 +1,49 @@
 <!DOCTYPE html>
-<html lang="es-ES">
+<html>
 <head>
     <title>PRÁCTICA</title>
-    <meta charset="utf-8">
-    <style> 
-
+<style> 
 body{
-    color:white;
+color:white;
 }
-
 h1{
     color:black;
 }
-
 div {
-    width: 300px;
-    height: 200px;
-    padding: 30px;
-    text-align: center;
-    border-radius: 40px;
+width: 300px;
+height: 200px;
+padding: 30px;
+text-align: center;
+border-radius: 40px;
 }
-
 #cajaNegra {
-    background-color: black;
-    float: left;
+background-color:black;
+float:left;
 }
-
 #cajaAzul {
-    background-color: blue;
-    float: right;
+background-color:blue;
+float:right;
 }
-
 #cajaVerde {
-    background-color: green;
-    float: left;
+background-color: green;
+float: left;
 }
-
 #cajaRoja {
-    background-color: red;
-    float: right;
+background-color: red;
+float: right;
+}
+img{
+width:100;
+    height: 100px;
+border-radius: 10px;
 }
 </style>
 </head>
 <body>
-    <h1>Las famosas cajas flotantes</h1>
-   
-	
-    <div id="cajaNegra"> Caja NEGRA <img src= "C:\Users\Meliton\Downloads\rocio ahuatan\img\arbol.jpg"width="150" > </div>	  
-    <div id="cajaAzul"> Caja AZUL <img src="C:\Users\Meliton\Downloads\rocio ahuatan\img\atardecer.jpg" width="200"> </div>
-    <div id="cajaVerde"> Caja VERDE <img src="C:\Users\Meliton\Downloads\rocio ahuatan\img\pintura.jpg" width="200"></div>
-    <div id="cajaRoja"> Caja ROJA <img src="C:\Users\Meliton\Downloads\rocio ahuatan\img\playa.jpg" width="200"> </div>
+<h1>Las famosas cajas flotantes</h1>
+<div id="cajaNegra"> <img src= "https://viverodelchaja.com.uy/wp-content/uploads/2023/05/JACARANDA1-1.jpg"> Caja NEGRA </div>	  
+<div id="cajaAzul"> <img src="https://viverodelchaja.com.uy/wp-content/uploads/2023/05/JACARANDA1-1.jpg"> Caja AZUL </div>
+<div id="cajaVerde"> <img src= "https://viverodelchaja.com.uy/wp-content/uploads/2023/05/JACARANDA1-1.jpg"> Caja VERDE</div>
+<div id="cajaRoja"> <img src= "https://viverodelchaja.com.uy/wp-content/uploads/2023/05/JACARANDA1-1.jpg"> Caja ROJA </div>
 </body>
 </html>
